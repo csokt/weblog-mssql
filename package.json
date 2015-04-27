@@ -1,0 +1,30 @@
+{
+  "name": "weblog-mssql",
+  "version": "0.0.0",
+  "description": "weblog ms sql module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csokt/weblog-mssql.git"
+  },
+  "keywords": [
+    "mssql",
+    "log"
+  ],
+  "author": "csokt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csokt/weblog-mssql/issues"
+  },
+  "homepage": "https://github.com/csokt/weblog-mssql",
+  "dependencies": {
+    "autobahn": "^0.9.6",
+    "ip": "^0.3.2",
+    "lodash": "^3.7.0",
+    "mssql": "^2.1.2",
+    "when": "^3.7.3"
+  }
+}
