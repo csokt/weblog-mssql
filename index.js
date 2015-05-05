@@ -49,7 +49,6 @@ var weblogMssql = function(setup) {
       request.query(query).then(function(rows) {
         var res = []
         _.each(rows, function(row) { res.push(_.values(row)) })
-//        console.dir(res)
         d.resolve(res)
       }).catch(function(err) {
         console.log('err', err)

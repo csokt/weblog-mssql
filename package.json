@@ -1,6 +1,6 @@
 {
   "name": "weblog-mssql",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "weblog ms sql module",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   "dependencies": {
     "autobahn": "^0.9.6",
     "ip": "^0.3.2",
-    "lodash": "^3.7.0",
-    "mssql": "^2.1.2",
+    "lodash": "^3.8.0",
+    "mssql": "^2.1.3",
     "when": "^3.7.3"
   }
 }
